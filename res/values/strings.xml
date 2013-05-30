@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">STEM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- menu strings -->
+    <string name="menu_btn1">Change my name</string>
+    <string name="menu_btn2">Change my name</string>
+    <string name="menu_btn3">Change my name</string>
+    <string name="menu_btn4">Change my name</string>
+    <string name="menu_btn5">Change my name</string>
+    <string name="menu_btn6">Change my name</string>
+    <string name="menu_bottom_btn">Change this too</string>
+    <string name="menu_title_txtBox">Change Title</string>
+    <string name="menu_bottom_txtBox">add info here</string>
+    
+    <!-- splash strings -->
+    <string name="splash_title_txt">Some Title</string>
+    
+    
+</resources>

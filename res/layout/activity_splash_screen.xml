@@ -1,0 +1,26 @@
+<!--Authors: Students Names  and group name -->
+<!--activity_splash_screen.xml-->
+<!--Date-->
+<!--xml layout for SplashScreen.java -->
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".SplashScreen"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/splash_title_txt"
+        android:textColor="@color/gold2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+</RelativeLayout>
