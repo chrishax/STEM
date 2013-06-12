@@ -47,38 +47,68 @@ public class MenuView extends Activity {
 		
 		//Click method for the account management button - opens account management activity
 		 public void accountClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					 // insert the web address for button 1 here
+					 // button 1 is the top left button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent);  	
 		 }
 		 
 		 //Click method for the create WO button - opens create WO activity
 		 public void createClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					// insert the web address for button 2 here
+					 // button 2 is the top center button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent);
 			 
 		 }  
 
 		 //Click method for the open WO button - opens "open WO" activity
 		 public void openClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					// insert the web address for button 3 here
+					 // button 3 is the top right button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent); 
 		 }
 		    
 		 //Click method for the service management button - opens service management activity
 		 public void serviceClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					// insert the web address for button 4 here
+					 // button 4 is the bottom left button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent);
 		 }
 		 
 		 //click method for the customer management button - opens customer management view
 		 public void customerClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					// insert the web address for button 5 here
+					 // button 5 is the bottom center button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent);
 		 }
 		 
 		 //Click method for the reports button - opens the report view
 		 public void helpClick(View view){
-			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://google.com"));
+			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
+					// insert the web address for button 6 here
+					 // button 6 is the bottom right button
+					 "https://google.com"
+					 
+					 ));
 		    	startActivity(browserIntent);  
 		 }
 		
