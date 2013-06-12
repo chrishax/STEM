@@ -2,6 +2,7 @@
 <!--activity_menu_view.xml-->
 <!--Date-->
 <!--xml layout for MenuView.java -->
+<!-- This XML file will be where you change the look and feel of the Main Menu -->
   
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -14,7 +15,7 @@
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonLogout"
+        android:layout_above="@+id/buttonBottom"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/txtViewTitle"
@@ -69,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:layout_marginBottom="20dp"
             android:gravity="center" >
 
             <Button
