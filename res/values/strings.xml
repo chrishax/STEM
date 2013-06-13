@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- text value for STEM common -->
     <string name="app_name">STEM</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
 
+    <!-- menu strings -->
+    <string name="menu_btn1">Florida State University Panama City</string>
+    <string name="menu_btn2">US Department of Defense</string>
+    <string name="menu_btn3">Department of Environmental Protection Florida</string>
+    <string name="menu_btn4">NAVSEA Warfare Centers</string>
+    <string name="menu_btn5">Gulf Power</string>
+    <string name="menu_btn6">NEED</string>
+    <string name="menu_bottom_btn">Close Out Program</string>
+    <string name="menu_title_txtBox">Thank You to Our Sponsors</string>
+    <string name="menu_bottom_txtBox">Version 0.1 BETA - GRS</string>
     
-    <!-- text values for menu screen -->
-    <string name="menu_btn1">Change my name</string>
-    <string name="menu_btn2">Change my name</string>
-    <string name="menu_btn3">Change my name</string>
-    <string name="menu_btn4">Change my name</string>
-    <string name="menu_btn5">Change my name</string>
-    <string name="menu_btn6">Change my name</string>
-    <string name="menu_bottom_btn">Change this too</string>
-    <string name="menu_title_txtBox">Change Title</string>
-    <string name="menu_bottom_txtBox">add info here</string>
-    
-    
-    <!-- text values for splash screen -->
-    <string name="splash_title_txt">Some Title</string>
+    <!-- splash strings -->
+    <string name="splash_title_txt">Example Splash Screen - STEM 2013</string>
     
     
 </resources>
