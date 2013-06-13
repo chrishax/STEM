@@ -37,7 +37,7 @@
                 android:layout_height="fill_parent"
                 android:background="@drawable/custom_button"
                 android:layout_margin="15dp"
-                android:onClick="createClick"
+                android:onClick="button1Click"
                 android:text="@string/menu_btn1"
                 />
 
@@ -48,7 +48,7 @@
                 android:layout_height="fill_parent"
                 android:background="@drawable/custom_button"
                 android:layout_margin="15dp"
-                android:onClick="openClick"
+                android:onClick="button2Click"
                 android:text="@string/menu_btn2"
                 />
 
@@ -59,7 +59,7 @@
                 android:layout_margin="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_button"
-                android:onClick="customerClick"
+                android:onClick="button3Click"
                 android:text="@string/menu_btn3" />
            
 
@@ -80,7 +80,7 @@
                 android:layout_margin="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_button"
-                android:onClick="serviceClick"
+                android:onClick="button4Click"
                 android:text="@string/menu_btn4" />
 
              <Button
@@ -90,7 +90,7 @@
                 android:layout_height="fill_parent"
                 android:background="@drawable/custom_button"
                 android:layout_margin="15dp"
-                android:onClick="accountClick"
+                android:onClick="button5Click"
                 android:text="@string/menu_btn5" 
                 />
 
@@ -101,7 +101,7 @@
                 android:layout_margin="15dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_button"
-                android:onClick="helpClick"
+                android:onClick="button6Click"
                 android:text="@string/menu_btn6" />
         </TableRow>
 
@@ -131,7 +131,7 @@
         android:background="@drawable/custom_button"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
-        android:onClick="logoutClick"
+        android:onClick="bottomClick"
         android:text="@string/menu_bottom_btn" />
 
     <TextView

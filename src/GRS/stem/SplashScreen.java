@@ -1,7 +1,5 @@
 package GRS.stem;
 
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -9,10 +7,19 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
+/**
+ * Implementation for {@link SplashScreen}
+ * @author csmith
+ *
+ */
 public class SplashScreen extends Activity {
 
 	   private static String TAG = SplashScreen.class.getName();
-	   private static long SLEEP_TIME = 3;    // Sleep for some time
+	   
+	   /**
+	    * Set the amount of time that the splash screen is displayed
+	    */
+	   private static long SLEEP_TIME = 3;   
 	 
 	   @Override
 	   protected void onCreate(Bundle savedInstanceState) {
