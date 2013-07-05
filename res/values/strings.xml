@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">STEM</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Group Name!!</string>
     <string name="menu_settings">Settings</string>
 
     <!-- menu strings -->
-    <string name="menu_btn1">Florida State University Panama City</string>
-    <string name="menu_btn2">US Department of Defense</string>
-    <string name="menu_btn3">Department of Environmental Protection Florida</string>
-    <string name="menu_btn4">NAVSEA Warfare Centers</string>
-    <string name="menu_btn5">Gulf Power</string>
-    <string name="menu_btn6">NEED</string>
-    <string name="menu_bottom_btn">Close Out Program</string>
-    <string name="menu_title_txtBox">Thank You to Our Sponsors</string>
+    <string name="menu_btn1">Button 1</string>
+    <string name="menu_btn2">Button 2</string>
+    <string name="menu_btn3">Button 3</string>
+    <string name="menu_btn4">Button 4</string>
+    <string name="menu_btn5">Button 5</string>
+    <string name="menu_btn6">Button 6</string>
+    <string name="menu_bottom_btn">Bottom Button</string>
+    <string name="menu_title_txtBox">Title Slogan</string>
     <string name="menu_bottom_txtBox">Version 0.1 BETA - GRS</string>
+    
+   
     
     <!-- splash strings -->
     <string name="splash_title_txt">Example Splash Screen - STEM 2013</string>

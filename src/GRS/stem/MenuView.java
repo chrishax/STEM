@@ -49,7 +49,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					 // insert the web address for button 1 here
 					 // button 1 is the top left button
-					 "http://pc.fsu.edu"
+					"http://google.com"
+					 //"http://pc.fsu.edu"
 					 ));
 		    	startActivity(browserIntent);  	
 		 }
@@ -59,7 +60,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					// insert the web address for button 2 here
 					 // button 2 is the top center button
-					 "http://www.defense.gov/"
+						"http://google.com"
+					 //"http://www.defense.gov/"
 					 
 					 ));
 		    	startActivity(browserIntent);
@@ -71,7 +73,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					// insert the web address for button 3 here
 					 // button 3 is the top right button
-					 "http://www.dep.state.fl.us/"
+						"http://google.com"
+					 //"http://www.dep.state.fl.us/"
 					 
 					 ));
 		    	startActivity(browserIntent); 
@@ -82,7 +85,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					// insert the web address for button 4 here
 					 // button 4 is the bottom left button
-					 "http://www.navsea.navy.mil/default.aspx"
+						"http://google.com"
+					 //"http://www.navsea.navy.mil/default.aspx"
 					 
 					 ));
 		    	startActivity(browserIntent);
@@ -93,7 +97,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					// insert the web address for button 5 here
 					 // button 5 is the bottom center button
-					 "http://www.gulfpower.com/"
+						"http://google.com"
+					 //"http://www.gulfpower.com/"
 					 
 					 ));
 		    	startActivity(browserIntent);
@@ -104,7 +109,8 @@ public class MenuView extends Activity {
 			 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(
 					// insert the web address for button 6 here
 					 // button 6 is the bottom right button
-					 "http://www.need.org/"
+						"http://google.com"
+					 //"http://www.need.org/"
 					 
 					 ));
 		    	startActivity(browserIntent);  
